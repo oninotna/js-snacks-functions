@@ -9,9 +9,17 @@ function greetUser(name) {
     return `ciao ${name}`;
 }
 
+const greetUserArrow = (name) => {
+    return `ciao ${name}`;
+}
+
+const greetUserArrowImplicit = name => `ciao ${name}`;
+
 
 // Invoca la funzione qui e stampa il risultato in console
 console.log(greetUser(userName));
+console.log(greetUserArrow(userName));
+console.log(greetUserArrowImplicit(userName));
 
 
 
